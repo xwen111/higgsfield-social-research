@@ -1,0 +1,18 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.venv/
+node_modules/
+dist/
+
+# Original capture inventories contain expiring source URLs and are not needed by the site.
+research/records.json
+research/covers.json
+research/media-inventory.json
+research/test-video.mp4
+research/audio-test.wav
+research/media/*-video.mp4
+research/finding-assets/qa-*.jpg
+research/report-*.png
